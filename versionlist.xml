@@ -49,7 +49,7 @@
       <versionentries numberofelements="3">
 
 		 <!-- not sure i think the active-x dll is the non browser one - e.g. if you want to make a screensaver using it in the exe you compile - so up to you to import and test it, it's possibly also used by firefox and older opera -->
-		 
+		 <!-- also note - the version numbers are inclusive e.g. adding 16.0.0.257 will allow it  -->
 		 <versionentry groupname="Shockwave Flash 16" filename="Flash.ocx" productversion="16.0.0.288-65535.65535.65535.65535" fileversion="16.0.0.288-65535.65535.65535.65535" />
 		  <versionentry groupname="Shockwave Flash AX 16" filename="FlashUtil_ActiveX.dll" productversion="16.0.0.288-65535.65535.65535.65535" fileversion="16.0.0.288-65535.65535.65535.65535" />
 		 <versionentry groupname="Shockwave Flash" filename="*" productversion="*" fileversion="*" />
