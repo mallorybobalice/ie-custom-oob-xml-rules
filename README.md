@@ -1,6 +1,7 @@
 <h2>What is this?</h2><br/>
 This is a [rudementarily tested] working example of modifying the XML manifest used by Microsoft for the 'out of date active-x blocking feature' to add flash 16.0.0.257 and 16.0.0.287 to a blocklist. [or rather not whitelist them]<br/>
 <br/>
+here is a picture of the end result: https://github.com/mallorybobalice/ie-custom-oob-xml-rules/issues/1 <br/>
 Tested on 8.1 ie11, but should be no different for 8-11, IE7<br/>
 I've only tested it with flash 16. I haven't tested it with 15, 14, etc. <br/>
 <br/>
