@@ -23,7 +23,8 @@ A good reference is https://technet.microsoft.com/en-us/library/dn761713.aspx <b
 	- intranet and trusted sites are not blocked by default (good depending on your level of paranoia. mostly good )<br/>
 	- it's a whitelist, you need to ammend it or dl ms's one (ignore it says ie11, it's 8-11). <br/>
 		Read more about the supported versions here https://technet.microsoft.com/en-us/library/dn761713.aspx <br/>
-	- by overriding the list [and if you don't it will get overwritten] and disabling MS list updates you will miss out on 	the new blocklists and with managed PCs offsite depending on the distribution method and enforcement styles that 			might suddenly start to matter<br/>
+	- Technically there is no indication if it is intended for admin modification. <br/>
+	- By overriding the list [and if you don't it will get overwritten] and disabling MS list updates you will miss out on the new blocklists and with managed PCs offsite depending on the distribution method and enforcement styles that 			might suddenly start to matter<br/>
 	- no one guarantees the format of the XML won't change. <br/>
 	- you can probably play with the timestamps and time windows at the top instead of disabling auto-update [effectively 	setting the XML to expire after a few days and to resume MS updates for it] <br/>
 	- you should have your trusted sites list ready and preferably controlled via GPO (IEAK is not good but could work 		too)<br/>
@@ -70,8 +71,7 @@ IE's add-on properties window gives you a bit more info:<br/>
 	Type:                   ActiveX Control<br/>
 	Architecture:           32-bit and 64-bit<br/>
 	Version:                16.0.0.257<br/>
-	File date:              ?Friday, ?16 ?January ?2015, ??12:51 AM<br/>
-	Date last accessed:     ?Today, ?24 ?January ?2015, ??2 minutes ago<br/>
+	File date:              Friday, 16 January 2015, 12:51 AM<br/>
 	Class ID:               {D27CDB6E-AE6D-11CF-96B8-444553540000}<br/>
 	Use count:              21<br/>
 	Block count:            0<br/>
