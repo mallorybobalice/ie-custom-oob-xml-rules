@@ -1,5 +1,5 @@
 <h2>What is this?</h2><br/>
-This is a [rudementarily tested] working example of modifying the XML manifest used by Microsoft for the 'out of date active-x blocking feature' to add flash 16.0.0.257 and 16.0.0.287 to a blocklist. [or rather not whitelist them but n.b this only happens for the controls in the XML not 'your own business critical ones' (unless you want to manage them via the lsit too)]<br/>
+This is a [rudementarily tested] working example of modifying the XML manifest used by Microsoft for the 'out of date active-x blocking feature' to add flash 16.0.0.257 and 16.0.0.287 and now 16.0.0.296 to a blocklist. [or rather not whitelist them but n.b this only happens for the controls in the XML not 'your own business critical ones' (unless you want to manage them via the lsit too)]<br/>
 <br/>
 here is a picture of the end result: https://github.com/mallorybobalice/ie-custom-oob-xml-rules/issues/1 <br/>
 Tested on 8.1 ie11, but should be no different for IE8-11 and Win7<br/>
@@ -21,6 +21,7 @@ A good reference is https://technet.microsoft.com/en-us/library/dn761713.aspx <b
 <br/>
 <h2>Caveats:</h2><br/>
 	- IE needs to be restarted to take effect. GPO/etc distro methods can be delayed as well [well, unless you WMI exec 		GPUPdate force or whatever you do]<br/>
+	- currently it's blocking the X86 version in syswow64 and the flash.ocx names may vary (classid is ok though). I haven't tested it with the X64 version but you can try it. 
 	- intranet and trusted sites are not blocked by default (good depending on your level of paranoia. mostly good )<br/>
 	- it's a whitelist, you need to ammend it or dl ms's one (ignore it says ie11, it's 8-11). <br/>
 		Read more about the supported versions here https://technet.microsoft.com/en-us/library/dn761713.aspx <br/>
