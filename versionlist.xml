@@ -50,8 +50,11 @@
 
 		 <!-- not sure i think the active-x dll is the non browser one - e.g. if you want to make a screensaver using it in the exe you compile - so up to you to import and test it, it's possibly also used by firefox and older opera -->
 		 <!-- also note - the version numbers are inclusive e.g. adding 16.0.0.257 will allow it  -->
+		 <!-- keep in mind the new OCX file names are differenet but classid is ok -->
+		 <!-- also noticed an x64 version. x86 is in syswow64) -->
 		 <versionentry groupname="Shockwave Flash 16" filename="Flash.ocx" productversion="16.0.0.298-65535.65535.65535.65535" fileversion="16.0.0.298-65535.65535.65535.65535" />
-		  <versionentry groupname="Shockwave Flash AX 16" filename="FlashUtil_ActiveX.dll" productversion="16.0.0.298-65535.65535.65535.65535" fileversion="16.0.0.298-65535.65535.65535.65535" />
+		 <!-- not quite sure why, but I don't think it's the right place to process the active-x dll, moreover it probably isn't the same class ID anyway
+			<versionentry groupname="Shockwave Flash AX 16" filename="FlashUtil_ActiveX.dll" productversion="16.0.0.295-65535.65535.65535.65535" fileversion="16.0.0.295-65535.65535.65535.65535" />-->
 		 <versionentry groupname="Shockwave Flash" filename="*" productversion="*" fileversion="*" />
 		
       </versionentries>
